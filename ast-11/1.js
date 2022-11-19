@@ -41,6 +41,7 @@ const transform = (path) => {
   let thisBindings = '_this';
   if (!thisEnv.scope.hasBinding(thisBindings)) {
     thisEnv.scope.push({
+      kind: "const",
       id: types.identifier(thisBindings),
       init: types.thisExpression()
     })
