@@ -1,0 +1,17 @@
+{
+  "name": "rollup-basic-007",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^8.4.19",
+    "rollup": "^3.6.0",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
