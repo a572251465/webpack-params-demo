@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "acorn": "^8.8.1",
+    "magic-string": "^0.27.0"
+  }
 }
